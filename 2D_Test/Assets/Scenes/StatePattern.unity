@@ -856,10 +856,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2f31dcc92fbf014eb323c57d3f6e58c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  curState: 0
   player: {fileID: 0}
   traceRange: 5
   attackRange: 2
-  isDead: 0
   moveSpeed: 3
   startPos: {x: 0, y: 0}
 --- !u!1 &816355607
