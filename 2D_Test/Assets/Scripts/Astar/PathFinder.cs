@@ -160,7 +160,7 @@ public class PathFinder : MonoBehaviour
 
         //타일맵 거리: 직선과 대각선을 통해 이동하는 거리
         int straightCount = Mathf.Abs(xSize - ySize);
-        int diagonalCount = Mathf.Max(xSize, ySize) - straightCount;
+        int diagonalCount = Mathf.Min(xSize, ySize) - straightCount;
         return CostStraight * straightCount + CostDiagonal * diagonalCount;
     }
 
